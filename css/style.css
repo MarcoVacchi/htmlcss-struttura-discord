@@ -69,8 +69,8 @@ header {
 }
 
 main > section {
-    padding-top: 30px;
-    margin: 30px;
+    padding-top: 52px;
+    margin: 0px;
 }
 
 
@@ -83,7 +83,6 @@ main > section {
 
 .bg-grey {
     background-color: gray;
-    display: flex;
 }
 
 .bg-black {
@@ -91,23 +90,32 @@ main > section {
 }
 
 
-.debug main section .row {
-        height: 500px;
-        width: 1200px;
-        background-color: #1e90ff;
-        display: flex;
-        justify-self: center;
-}
-
 .container-3 {
-width: 800px;
-margin: 0 auto;
-display: flex;
+    height: 500px;
+    width: 1826px;
+    background-color:white;
+    display: flex;
+    justify-content: center;
 }
 
-.item-row-1{
-    width: 901px;
-    height: 400px;
-    background-color: blue;
+
+.debug main section .row {
+    height: 500px;
+    width: 718px;
+    background-color: #1e90ff;
+    display: flex;
+    justify-self: center;
     border: 2px dotted black;
+}
+
+.child {
+    height: 500px;
+    width: 480px;
+    background-color: #ffc0cb;
+    display: flex;
+    border: 2px dotted black;
+}
+
+.gray{
+    background-color: gray;
 }
