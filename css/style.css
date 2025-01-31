@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 
-header{
+header {
     background-color: #add8e6;
     height: 62px;
     width: 1826px;
 }
 
-.container{
+.container {
     display: flex;
     justify-content: center;
 }
@@ -26,7 +26,7 @@ header{
 }
 
 
-.logo{
+.logo {
     background-color: #daa520;  
     border: 2px dotted black;
     width: 240px; 
@@ -34,7 +34,7 @@ header{
 }
 
 
-.link{
+.link {
     background-color: #daa520;  
     border: 2px dotted black;
     flex-grow: 1;
@@ -43,9 +43,27 @@ header{
 }
 
 
-.login{
+.login {
     background-color: #daa520;  
     border: 2px dotted black;
     width: 240px;
     padding: 12px;
+}
+
+
+.container-blu {
+    height: 500px;
+    width: 1826px;
+    background-color:#00008b;
+    display: flex;
+    justify-content: center;
+    padding: 47px;
+}
+
+.item-container-blu {
+    width: 901px;
+    height: 400px;
+    background-color: #ee82ee;
+    border: 2px dotted black;
+    display: flex;
 }
