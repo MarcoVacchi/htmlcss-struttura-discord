@@ -51,7 +51,7 @@ header {
 }
 
 
-.container-blu {
+.container-1 {
     height: 500px;
     width: 1826px;
     background-color:#00008b;
@@ -60,10 +60,54 @@ header {
     padding: 47px;
 }
 
-.item-container-blu {
+.item-container-1 {
     width: 901px;
     height: 400px;
     background-color: #ee82ee;
     border: 2px dotted black;
     display: flex;
+}
+
+main > section {
+    padding-top: 30px;
+    margin: 30px;
+}
+
+
+/*colori section*/
+
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-grey {
+    background-color: gray;
+    display: flex;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+
+.debug main section .row {
+        height: 500px;
+        width: 1200px;
+        background-color: #1e90ff;
+        display: flex;
+        justify-self: center;
+}
+
+.container-3 {
+width: 800px;
+margin: 0 auto;
+display: flex;
+}
+
+.item-row-1{
+    width: 901px;
+    height: 400px;
+    background-color: blue;
+    border: 2px dotted black;
 }
