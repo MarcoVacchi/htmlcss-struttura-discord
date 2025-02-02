@@ -1,1 +1,1 @@
-# Esercizio nuovo
+# Scheletro struttura discord completata
